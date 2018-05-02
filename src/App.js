@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 let defaultStyle = {
@@ -49,12 +48,12 @@ class App extends Component {
     return (
       <div className="App">
           <h1 style={{color: '#fff'}} className="App-title">Future Music</h1>
-          <Aggregate/>
-          <Aggregate/>
-          <Filter/>
-          <Playlist/>
-          <Playlist/>
-          <Playlist/>
+        <Aggregate/>
+        <Aggregate/>
+        <Filter/>
+        <Playlist/>
+        <Playlist/>
+        <Playlist/>
       </div>
     );
   }
